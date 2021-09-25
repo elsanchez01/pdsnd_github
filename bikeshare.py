@@ -23,7 +23,7 @@ def get_filters():
         if city == 'chicago' or city == 'new york city' or city == 'washington':
             select_city = False
         else:
-            print('Invalid choice')
+            print('Invalid choice, please write again')
 
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -33,7 +33,7 @@ def get_filters():
         if month == 'january' or month == 'february' or month == 'march' or month == 'april' or month == 'may' or month == 'june' or month == 'all':
             select_month = False
         else:
-            print('Invalid choice!')
+            print('Invalid choice, please write again')
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     select_day = True
